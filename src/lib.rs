@@ -23,5 +23,5 @@ pub fn create_post(conn: &mut PgConnection, title: &str, body: &str) -> Post {
         .values(&new_post)
         .returning(Post::as_returning())
         .get_result(conn)
-        .expect("Erro ao salvar post.");
+        .expect("Erro ao salvar post.")
 }
