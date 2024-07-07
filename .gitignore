@@ -1,0 +1,10 @@
+# Arquivos e diretórios gerados automaticamente
+/target
+**/*.rs.bk
+
+# Diretórios de metadados
+/.idea/
+/.vscode/
+
+# Variáveis de ambiente
+.env
